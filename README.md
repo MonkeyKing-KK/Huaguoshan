@@ -4,9 +4,7 @@
 Models are modified as the inputs are all 32*32 RGB images. We only conduct three downsample operations and you can find the modified parts in .py files.
 
 # Reference
-[MobileNetV2](https://arxiv.org/abs/1801.04381)
-	[ShuffleNetV2](https://arxiv.org/abs/1807.11164)
-	[ghostnet](https://arxiv.org/abs/1911.11907)
+[MobileNetV2](https://arxiv.org/abs/1801.04381)		[ShuffleNetV2](https://arxiv.org/abs/1807.11164) 	[ghostnet](https://arxiv.org/abs/1911.11907)
 
 # Network
 	-MobileNetV2
