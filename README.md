@@ -5,8 +5,8 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
 
 # Reference
 [MobileNetV2](https://arxiv.org/abs/1801.04381)
-[ShuffleNetV2](https://arxiv.org/abs/1807.11164)
-[ghostnet](https://arxiv.org/abs/1911.11907)
+	[ShuffleNetV2](https://arxiv.org/abs/1807.11164)
+	[ghostnet](https://arxiv.org/abs/1911.11907)
 
 # Network
 	-MobileNetV2
@@ -26,7 +26,7 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
     -requirements.txt
 
 # Quick start:
-default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
+	default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
 Three arc are available just for now: MobileNetV2, shufflenetv2, ghost_net
     
     python train.py
