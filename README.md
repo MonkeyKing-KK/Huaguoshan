@@ -13,7 +13,7 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
 	-ShuffleNetV2
 	-GhostNet
 
-# Accuracy after training:
+# Accuracy After Training:
 
 	Model				Accuracy
 	MobileNetV2			93.92%
@@ -25,15 +25,19 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
 # Requirements:
     -requirements.txt
 
-# Quick start:
-	default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
-Three arc are available just for now: MobileNetV2, shufflenetv2, ghost_net
+# Quick Start:
+default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
     
     python train.py
-    
+
+# More Training Options
+    -bs			batch_size, type=int, default=128
+    -max_epoch		num of training epochs, type=int, default=190
+    -lr			learning_rate, default=0.1
+    -arc		model to use['MobileNetV2 shufflenetv2 ghost_net'] [default=MobileNetV2]
 
 # To Do
-	add more lightweight models
-	clean up the code
+	Add more lightweight models
+	Clean up the code
 
 
