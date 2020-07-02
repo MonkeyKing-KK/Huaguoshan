@@ -10,7 +10,7 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
 	ShuffleNetV2			92.60%
 	GhostNet			92.57%
 
-1. ![](https://github.com/MonkeyKing-KK/Huaguoshan/edit/master/compare.jpg) 
+1. ![](https://github.com/MonkeyKing-KK/Huaguoshan/blob/master/compare.jpg) 
 
 # requirements:
     -requirements.txt
