@@ -26,10 +26,10 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
     -requirements.txt
 
 # Quick start:
+## default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
+## Three arc are available just for now: MobileNetV2, shufflenetv2, ghost_net
     python train.py
     
-	default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
-	Three arc are available just for now: MobileNetV2, shufflenetv2, ghost_net
 
 # To Do
 	add more lightweight models
