@@ -3,10 +3,15 @@
 
 Models are modified as the inputs are all 32*32 RGB images. We only conduct three downsample operations and you can find the modified parts in .py files.
 
-[MobileNetV2](https://arxiv.org/abs/1801.04381)
-[ShuffleNetV2](https://arxiv.org/abs/1807.11164)
-[ghostnet](https://arxiv.org/abs/1911.11907)
+# Reference
+	[MobileNetV2](https://arxiv.org/abs/1801.04381)
+	[ShuffleNetV2](https://arxiv.org/abs/1807.11164)
+	[ghostnet](https://arxiv.org/abs/1911.11907)
 
+# Network
+	MobileNetV2
+	ShuffleNetV2
+	GhostNet
 
 # Accuracy after training:
 
@@ -17,15 +22,17 @@ Models are modified as the inputs are all 32*32 RGB images. We only conduct thre
 
 ![](https://github.com/MonkeyKing-KK/Huaguoshan/blob/master/compare.jpg) 
 
-# requirements:
+# Requirements:
     -requirements.txt
 
-# quick start:
+# Quick start:
     python train.py
     
 	default settings: batch_size = 128, max_epoch = 190, lr = 0.1. 
 	Three arc are available just for now: MobileNetV2, shufflenetv2, ghost_net
 
-
+# To Do
+	add more lightweight models
+	clean up the code
 
 
